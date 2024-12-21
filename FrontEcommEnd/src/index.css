@@ -1,0 +1,13 @@
+*{
+    font-family: nunito;
+}
+.nav-color {
+    color: black; /* Default color */
+    text-decoration: none;
+  }
+  
+  .nav-color:hover {
+    color: #db4444 !important; /* Hover color */
+    text-decoration: none; /* Optional */
+  }
+  
