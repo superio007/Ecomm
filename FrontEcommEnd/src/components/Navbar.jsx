@@ -16,7 +16,7 @@ function Navbar() {
             <Link className=" nav-color link-underline link-underline-opacity-0" to={"/"}>Home</Link>
             <Link className=" nav-color link-underline link-underline-opacity-0" to={"/about"}>About</Link>
             <Link className=" nav-color link-underline link-underline-opacity-0" to={"/contact"}>Contact Us</Link>
-            <Link className=" nav-color link-underline link-underline-opacity-0" to={"/signup"}>Sign Up</Link>
+            <Link className=" nav-color link-underline link-underline-opacity-0" to={"/register"}>Sign Up</Link>
           </div>
           <div className="d-flex gap-3">
           <FaHeart />
