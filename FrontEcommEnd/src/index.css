@@ -1,13 +1,30 @@
-*{
-    font-family: nunito;
+* {
+  font-family: nunito;
 }
 .nav-color {
-    color: black; /* Default color */
-    text-decoration: none;
-  }
-  
-  .nav-color:hover {
+  color: black; /* Default color */
+  text-decoration: none;
+  &:hover {
     color: #db4444 !important; /* Hover color */
     text-decoration: none; /* Optional */
   }
-  
+}
+
+.highlight:hover {
+  background-color: #db4444;
+  color: white;
+}
+
+.box{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28,28,28,0.06);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(28,28,28,0.06);
+  box-shadow: 10px 10px 5px 0px rgba(28,28,28,0.06);
+}
+
+.input-div {
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: #f5f5f5;
+  padding: 1rem 1.58rem;
+}
