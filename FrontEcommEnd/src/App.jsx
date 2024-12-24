@@ -6,15 +6,18 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Register from './pages/Register';
 import Login from './pages/login';
+import Trypage from './pages/TryPage';
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
+    
       <Route path="/" element={<MainLayout />}>
         <Route path='/' element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/try" element={<Trypage />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     )
